@@ -7,7 +7,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Lato, sans-serif;
+    font-family: Nunito, sans-serif;
     color:#555;
     margin:0;
 }
@@ -44,10 +44,10 @@ p{
     line-height: 150%;
 }
 header{
-    background:#3a7ac1;
+    /*background:#80A0D6;*/
     width:100%;
     height:90px;
-    position:fixed;
+    position:absolute;
     top:0;
     left:0;
     z-index:100;
@@ -72,7 +72,7 @@ nav ul li{
     font-size: 125%;
 }
 h2 a{
-    color: #3a7ac1;
+    color: #5FB8BA;
     font-weight: bold;
     font-size: 110%;
 }
@@ -90,7 +90,8 @@ strong{
 }
 footer{
     /*background:#405580;*/
-    background:#3a7ac1;
+    /*background:#3a7ac1;*/
+    background: #5FB8BA;
     width:100%;
     height:75px;
     /*opacity: 0.80;*/
@@ -106,7 +107,8 @@ footer p{
 
 .bg {
     /* The image used */
-    background: linear-gradient(rgba(58,122,193, 1), rgba(58,122,193, 1)), url('ocean.jpg');
+    /*background: linear-gradient(rgba(58,122,193, 1), rgba(58,122,193, 1)), url('ocean.jpg');*/
+    background: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url('ocean.jpg');
     /*background-image: url("../img/banh_mi_group_photo.jpg");*/
 
     /* Full height */
@@ -127,7 +129,7 @@ footer p{
     margin-top:-33px;
     text-align:center;
     z-index:10;
-    background:linear-gradient(rgba(58,122,193, 0.5), rgba(58,122,193, 0.5));
+    /*background:linear-gradient(rgba(58,122,193, 0.5), rgba(58,122,193, 0.5));*/
 }
 /*.center img{
     position: absolute;
@@ -161,7 +163,7 @@ footer p{
 }*/
 
 .section-header{
-    background:#3a7ac1;
+    background:#5FB8BA;
     width:100%;
     height:90px;
     position:relative;
@@ -300,7 +302,7 @@ footer p{
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #3a7ac1;
+    background-color: #5FB8BA;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -322,8 +324,8 @@ footer p{
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: #3a7ac1;
-    border: 4px solid #FF9F55;
+    background-color: #5FB8BA;
+    border: 4px solid #9DD0D4;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -347,7 +349,7 @@ footer p{
 /* The actual content */
 .timeline-content {
     padding: 20px 30px;
-    background-color: #3a7ac1;
+    background-color: #5FB8BA;
     position: relative;
     border-radius: 6px;
 }
