@@ -108,7 +108,7 @@ footer p{
 .bg {
     /* The image used */
     /*background: linear-gradient(rgba(58,122,193, 1), rgba(58,122,193, 1)), url('ocean.jpg');*/
-    background: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url('ocean.jpg');
+    background: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url('unsealed_fb.png');
     /*background-image: url("../img/banh_mi_group_photo.jpg");*/
 
     /* Full height */
